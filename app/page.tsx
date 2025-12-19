@@ -5,6 +5,8 @@ import Footer from "./components/layout/Footer";
 import Hero from "./pages/Hero";
 import Categories from "./pages/Categories";
 import TravelCategories from "./pages/Categories";
+import Trending from "./pages/Trending";
+import Tours from "./pages/Tours";
 
 export default function Home() {
   return (
@@ -15,8 +17,8 @@ export default function Home() {
         <Hero />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-32 py-16">
           <TravelCategories/>
-          {/* <Trending /> */}
-          {/* <Tours /> */}
+          <Trending />
+          <Tours />
           {/* <Stats /> */}
           {/* <Testimonials /> */}
         </div>
