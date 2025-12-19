@@ -7,6 +7,8 @@ import Categories from "./pages/Categories";
 import TravelCategories from "./pages/Categories";
 import Trending from "./pages/Trending";
 import Tours from "./pages/Tours";
+import Stats from "./pages/Stats";
+import Testimonials from "./pages/Testimonials";
 
 export default function Home() {
   return (
@@ -19,8 +21,8 @@ export default function Home() {
           <TravelCategories/>
           <Trending />
           <Tours />
-          {/* <Stats /> */}
-          {/* <Testimonials /> */}
+          <Stats />
+          <Testimonials />
         </div>
       </main>
       <Footer />

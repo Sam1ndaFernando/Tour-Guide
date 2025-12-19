@@ -11,7 +11,7 @@ const TravelButton = ({ name, icon, onClick }) => {
   return (
     <button
       onClick={onClick}
-      className="group flex flex-col items-center justify-center p-8 rounded-[2.5rem]
+      className="group flex flex-col items-center justify-center w-45 h-30 rounded-[1.5rem]
                  bg-white/5 border border-white/5
                  hover:bg-[#2ecc71]
                  transition-all duration-300"
